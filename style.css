@@ -27,7 +27,7 @@ header h1{
 
 header h2 {
     color: #945908;
-}/* o */
+}
 
 .title {
     text-align: center;
@@ -64,6 +64,11 @@ header h2 {
     display: flex;
     background-color: #824d04;
 } 
+
+.description:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12);
+}
 
 .description h2 {
     font-size: 40;
