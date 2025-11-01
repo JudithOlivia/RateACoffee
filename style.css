@@ -16,6 +16,9 @@ body {
     color: burlywood;
 }
 
+header {
+    background-color: #d9a152;;
+}
 .title {
     text-align: center;
 }
@@ -25,14 +28,33 @@ body {
 }
 
 .coffee {
+    flex: 0 0 300px;
+    padding: 1.5rem;
     display: flex;
-    background: bisque;
-    border-radius: 12px;
-    margin-bottom: 2.5rem;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
 } 
 
 .coffee:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12);
 }
+
+.coffee img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    flex: 1;
+    padding: 2rem;
+    border-left: 1px solid blanchedalmond;
+}
+
+.description h3 {
+    font-size: 30;
+    color: #b66e0a;
+}/*  
