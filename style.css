@@ -17,9 +17,9 @@ body {
 }
 
 header {
-    background-color: linear-gradient(135deg, #ddaa61, #b66e0a, #8b4513);
+    background-color: #ddaa61;
     padding: 40 px;
-    text-align: center;/*  */
+    text-align: center;
 }
 
 header h1{
