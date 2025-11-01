@@ -24,11 +24,15 @@ body {
     font-size: 42px;
 }
 
-
 .coffee {
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    align-items: flex-start;
-    max-width: 800px;
+    background: bisque;
+    border-radius: 12px;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+} 
+
+.coffee:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
 }
