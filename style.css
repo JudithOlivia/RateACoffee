@@ -1,5 +1,12 @@
-body {
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+body {
     background: #b66e0a;
     margin: 0;
     padding: 20px;
@@ -13,5 +20,15 @@ body {
     text-align: center;
 }
 
+.title h1 {
+    font-size: 42px;
+}
 
 
+.coffee {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: flex-start;
+    max-width: 800px;
+}
