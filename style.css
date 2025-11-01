@@ -22,11 +22,20 @@ header {
     text-align: center;
 }
 
+.header:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+
 header h1{
     color: #824d04;
 }
 
 header h2 {
+    color: #945908;
+}
+
+header p {
     color: #945908;
 }
 
